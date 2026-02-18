@@ -18,6 +18,18 @@
             padding: 15px 20px;
             text-align: center;
         }
+        .header-title {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .header-title img {
+            height: 50px;
+            width: 50px;
+        }
+        .header-title h1 {
+            margin: 0;
+        }
         main {
             max-width: 900px;
             margin: auto;
@@ -65,7 +77,10 @@
 <body>
 
 <header>
-    <h1>ReefScribe</h1>
+    <div class="header-title">
+        <img src="assets/images/ReefScribe_Icon.png" alt="ReefScribe Icon">
+        <h1>ReefScribe</h1>
+    </div>
     <p>Track your reef with confidence</p>
 </header>
 
